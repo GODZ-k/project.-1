@@ -1,0 +1,494 @@
+                @import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink&family=Baloo+Bhaijaan+2&display=swap');
+                @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+                @import url('https://fonts.googleapis.com/css2?family=Lora&family=Roboto&display=swap');
+                @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap');
+                @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&family=Oxygen&display=swap');
+                * {
+                    margin: 0;
+                    padding: 0;
+                    font-family: 'Baloo Bhaijaan 2', cursive;
+                }
+                
+                html {
+                    scroll-behavior: smooth;
+                    scroll-timeline: 2s;
+                }
+                
+                .navbar {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    cursor: pointer;
+                    top: 0;
+                    position: sticky;
+                }
+                
+                .navlist {
+                    display: flex;
+                    /* justify-content: center; */
+                    align-items: center;
+                    width: 50%;
+                    list-style: none;
+                    font-size: 10px;
+                    /* background-color: black; */
+                }
+                
+                .navlist li {
+                    font-size: 15px;
+                    padding: 12px 38px;
+                    list-style: none;
+                    margin: 15px;
+                }
+                
+                .navlist li a:hover {
+                    color: rgb(191, 128, 10);
+                }
+                
+                .navlist li a {
+                    text-decoration: none;
+                    color: white;
+                    /* font-weight: bold; */
+                }
+                
+                .logo {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 20%;
+                }
+                
+                .logo img {
+                    /* height: 10px; */
+                    width: 33%;
+                    /* border: 0px solid white; */
+                    box-shadow: 0px 0px 48px 3px rgb(252, 234, 234);
+                    border-radius: 50px;
+                }
+                
+                .logo img:hover {
+                    box-shadow: 0px 0px 50px 10px rgb(252, 234, 234);
+                }
+                
+                .rightnav {
+                    /* background-color: blue; */
+                    width: 36%;
+                    text-align: right;
+                    display: flex;
+                    justify-content: center;
+                    /* margin: auto; */
+                }
+                
+                #search {
+                    padding: 0px 30px;
+                    border: 2px solid white;
+                    float: left;
+                    /* text-align: left; */
+                    background: none;
+                    margin: 13px 6px;
+                    justify-content: left;
+                    border-radius: 5px;
+                    font-size: 15px;
+                    color: white;
+                }
+                
+                .background {
+                    background: rgba(0, 0, 0, 0.7) url(/joshua-woroniecki-mrWrzVzH11Q-unsplash.jpg);
+                    background-size: cover;
+                    background-blend-mode: darken;
+                }
+                
+                .box-main {
+                    justify-content: center;
+                    align-items: center;
+                    display: flex;
+                    color: white;
+                    height: 80%;
+                    max-width: 50%;
+                    margin: auto;
+                    font-family: 'Baloo Bhaijaan 2', cursive;
+                }
+                
+                .secondhalf img {
+                    height: 301px;
+                    border: 0px solid white;
+                    border-radius: 150px;
+                    width: 262%;
+                    display: block;
+                    margin: auto;
+                    background-color: rgba(0, 0, 0, 0.7);
+                    box-shadow: 0px 0px 40px 1px rgb(252, 234, 234);
+                }
+                
+                .secondhalf img:hover {
+                    box-shadow: 0px 0px 70px 10px rgb(252, 234, 234);
+                }
+                
+                .firstsection {
+                    height: 100vh;
+                }
+                
+                .firsthalf {
+                    width: 80%;
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                }
+                
+                .secondhalf {
+                    width: 10%;
+                }
+                
+                .secondhalf img {
+                    height: 207px;
+                    border: 0px solid white;
+                    border-radius: 150px;
+                    width: 282%;
+                    display: block;
+                    margin: auto;
+                }
+                
+                .text-big {
+                    font-size: 27px;
+                    color: white;
+                }
+                
+                .text-small {
+                    font-size: 16px;
+                    font-family: 'Baloo Bhaijaan 2', cursive;
+                }
+                
+                .buttons {
+                    margin: 24px 0px;
+                }
+                
+                .btn {
+                    padding: 4px 11px;
+                    cursor: pointer;
+                    font-size: 13px;
+                    /* background-color: red; */
+                    border-radius: 5px;
+                    background: none;
+                    border: 2px solid white;
+                    color: white;
+                }
+                
+                .btn:hover {
+                    color: rgb(182, 120, 5);
+                    /* box-shadow: 10px 10px 37px 2px green; */
+                }
+                
+                .btn a {
+                    text-decoration: none;
+                    list-style: none;
+                    color: white;
+                    cursor: pointer;
+                }
+                
+                .btn a:hover {
+                    color: rgb(182, 120, 5);
+                }
+                
+                .btn-sn {
+                    margin: 12px 10px;
+                    border: 2px solid white;
+                    color: white;
+                    background: none;
+                    padding: 0px 23px;
+                    vertical-align: middle;
+                    border-radius: 9px;
+                    font-size: 13px;
+                }
+                
+                .btn-sn:hover {
+                    color: orange;
+                }
+                
+                .sign-in {
+                    display: flex;
+                    margin: auto;
+                    justify-content: center;
+                    align-items: center;
+                }
+                
+                .sign-in-a {
+                    text-decoration: none;
+                    color: white;
+                    cursor: pointer;
+                    padding: 2px 15px;
+                    font-size: 15px;
+                    margin: auto;
+                }
+                
+                .sign-in-a:hover {
+                    color: orange;
+                }
+                
+                .sign-in button {
+                    font-size: 13px;
+                    color: white;
+                    border: 2px solid white;
+                    background: none;
+                    border-radius: 8px;
+                    text-decoration: none;
+                    padding: 0px 12px;
+                    cursor: pointer;
+                    padding: 5px 14px;
+                }
+                
+                .sign-in button a {
+                    text-decoration: none;
+                    color: white;
+                    cursor: pointer;
+                }
+                
+                .sign-in button a:hover {
+                    color: orange;
+                }
+                
+                .secright {
+                    max-width: 90%;
+                    font-variant: common-ligatures;
+                    display: flex;
+                    justify-content: center;
+                    padding: 60px 75px;
+                    font-family: 'Baloo Bhaijaan 2', cursive;
+                    align-items: center;
+                    margin: auto;
+                    height: 345px;
+                }
+                
+                .secright:hover {
+                    /* box-shadow: 10px 10px 37px 2px black */
+                }
+                
+                .thumbnail {}
+                
+                .thumbnail img {
+                    height: 320px;
+                    width: 362px;
+                    border-radius: 115px;
+                    box-shadow: 10px 10px 37px 2px black
+                }
+                
+                .thumbnail img:hover {
+                    box-shadow: 12px 12px 39px 4px black;
+                    height: 323px;
+                    width: 364px;
+                }
+                
+                .para {
+                    padding: 80px;
+                }
+                
+                .secleft {
+                    flex-direction: row-reverse;
+                    padding: 45px;
+                    /* box-shadow: 10px 10px 37px 2px black */
+                }
+                
+                .sectionsubtag {
+                    font-family: serif;
+                    font-size: 15px;
+                }
+                
+                .sectiontag {
+                    color: black;
+                }
+                
+                .contact {
+                    background-image: url(/Untitled\ design.png);
+                    height: 100vh;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+                
+                .contact h1 {
+                    color: black;
+                    /* justify-content: center; */
+                    text-align: left;
+                    padding-top: 100px;
+                    padding-bottom: 40px;
+                    margin: 12px;
+                    font-size: 40px;
+                    display: block;
+                    word-spacing: 10px;
+                    margin: 0px 185px;
+                }
+                
+                .form-contact {
+                    margin-left: 153px;
+                    /* background: none; */
+                }
+                
+                .form-contact input {
+                    padding: 8px;
+                    margin: 8px;
+                    font-size: 15px;
+                    border-radius: 12px;
+                    border: 2px solid white;
+                    /* background: none; */
+                }
+                
+                #country-name {
+                    font-size: 15px;
+                    border: 2px solid white;
+                    margin-bottom: 12px;
+                    margin-right: 60px;
+                    margin-left: 8px;
+                    padding: 4px 68px 4px 5px;
+                    margin-top: 10px;
+                    /* background: none; */
+                    border-radius: 12px;
+                }
+                
+                #message-box {
+                    border-radius: 12px;
+                    border: 2px solid white;
+                    font-size: 15px;
+                    padding: 8px;
+                    margin: 8px;
+                    size: 233;
+                    /* background: none; */
+                }
+                
+                #submit-button {
+                    font-size: 15px;
+                    font-weight: bold;
+                    padding: 5px 30px 5px 30px;
+                    background-color: white;
+                    border: 2px solid white;
+                    /* box-shadow: 3px 3px 3px green; */
+                    cursor: pointer;
+                    /* background: none; */
+                }
+                
+                #submit-button:hover {
+                    background-color: #efe9e9;
+                    border: 0px solid #efe9e9;
+                    color: rgb(0, 0, 0);
+                    /* font-weight: bold; */
+                    padding: 7px 32px 7px 32px;
+                    font-size: 16px;
+                }
+                
+                .last-footer {
+                    height: 80vh;
+                    background-color: aliceblue;
+                }
+                
+                .footer-1 {
+                    /* display: block; */
+                    display: flex;
+                    margin-right: -42px;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                }
+                
+                .footer-2 {
+                    /* display: inline-block; */
+                    color: green;
+                    margin: 40px;
+                    font-size: 60px;
+                }
+                
+                .footer-3 {
+                    /* text-align: end; */
+                    /* justify-content: right; */
+                    text-align: center;
+                    font-size: 51px;
+                    /* align-items: center; */
+                    margin: auto;
+                    font-family: 'Lora', serif;
+                    /* align-items: end; */
+                }
+                
+                .footer-3 p {
+                    font-size: 13px;
+                    margin-right: 17px;
+                    opacity: 0.7;
+                    word-spacing: 2px;
+                    /* font-family: Arial, Helvetica, sans-serif */
+                }
+                
+                .footer-4 {
+                    text-align: right;
+                    /* padding: 30px; */
+                }
+                
+                .footer-4 input {
+                    border-top: none;
+                    border-left: none;
+                    background-color: aliceblue;
+                    margin-right: -26px;
+                    padding: 5px;
+                    font-size: 16px;
+                    border-right: none;
+                    /* size: 40px; */
+                }
+                
+                #submit-mail {
+                    margin-right: 111px;
+                    border: none;
+                    background-color: aliceblue;
+                }
+                
+                #submit-mail:hover {
+                    cursor: pointer;
+                }
+                
+                .footer-flex {
+                    display: flex;
+                    padding: 20px;
+                    /* justify-content: center; */
+                    float: right;
+                    margin: 10px;
+                    margin-right: 12px;
+                }
+                
+                .footer-flex ul li {
+                    padding: 30px;
+                    padding-right: 85px;
+                    list-style-type: none;
+                    /* font-family: 'Oxygen', sans-serif; */
+                }
+                
+                .footer-flex ul li a {
+                    text-decoration: none;
+                    color: black;
+                    /* font-family: 'Oxygen', sans-serif; */
+                }
+                
+                .last-line {
+                    color: green;
+                    font-size: 16px;
+                    margin: 40px;
+                    word-spacing: 2px;
+                    font-weight: bold;
+                    display: flex;
+                    align-items: flex-end;
+                    margin-top: 230px;
+                    /* text-align: bottom; */
+                }
+                
+                .copyright {
+                    background-color: rgba(0, 0, 0, 0.996);
+                    height: 10vh;
+                }
+                
+                .copyright-1 {
+                    color: white;
+                    padding: 25px;
+                    margin-left: 150px;
+                    text-align: center;
+                    /* margin: auto; */
+                    /* display: inline-block; */
+                }
+                
+                .copyright-1 span {
+                    color: green;
+                }
+                
+                .copyright-1 img {
+                    float: right;
+                    height: 40px;
+                }
